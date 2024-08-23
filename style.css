@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    width: 100%;
+    height: 1vh;
+}
+.navbar{
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+.navbar_card{   
+    width: 33.3%;
+    display: flex;
+}
+.one_logo{
+    margin-left: 100px;
+    position: absolute;
+    transition: .3s;
+}
+.one_logo:hover{
+    transform: rotate(-30deg);
+}
+.two_logo{
+    margin-left: 180px;
+}
+.navbar_card ul{
+    margin: auto;
+    cursor: pointer;
+    display: flex;
+    list-style: none;
+    flex: 1;
+}
+.navbar_card ul li{
+    margin: auto;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 18px;
+    padding: 40px 20px 20px 20px;
+    border-radius: 0px 0px 5px 5px;
+    transition: .3s;
+}
+.navbar_card ul li:hover{
+    background-color: #99BAED;
+    color: white;
+}
+.navbar_card button{
+    margin: auto;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    background: dodgerblue;
+    border-radius: 12px;
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: monospace;
+    border: none;
+    box-shadow: 0 0 10px 2px #99BAED;
+}
+.navbar_card{
+    margin: auto;
+    gap: 20px;
+}
+.rasm{
+    margin-right: 10px;
+}
+.navbar_card img{
+    cursor: pointer;
+}
+.info{
+    font-size: 50px;
+    font-weight: 700;
+}
+.bannerrasm{
+    width: 645px;
+    height: 700px;
+    margin-left: 600px;
+    margin-top: -290px;
+}
+.kichik{
+    margin-left: 70px;
+    margin-top: -370px;
+    font-family: monospace;
+    font-size: 15px;
+}
+.kichik1{
+    margin-left: 70px;
+    font-family: monospace;
+    font-size: 15px;
+}
+.tugma{
+    cursor: pointer;
+    margin-left: 150px;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    background: dodgerblue;
+    border-radius: 12px;
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: monospace;
+    border: none;
+    box-shadow: 0 0 10px 2px #99BAED;
+}
+.bannerrasm2{
+    width: 700px;
+    height: 600px;
+}
+.harf{
+    font-family: monospace;
+    font-size: 66px;
+    margin-left: 800px;
+    margin-top: -500px;
+}
+.harf1{
+    color: yellow;
+    font-family: monospace;
+    font-size: 66px;
+    margin-left: 930px;
+    margin-top: -75px;
+}
+.harf2{
+    font-size: 17px;
+    margin-left: 750px;
+    font-weight: 200;
+    font-family: monospace;
+
+}
+.tugma1{
+    cursor: pointer;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    background: dodgerblue;
+    border-radius: 12px;
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: monospace;
+    border: none;
+    box-shadow: 0 0 10px 2px #99BAED;
+    margin-left: 740px;
+}
+.service{
+    font-family: monospace;
+    font-size: 60px;
+    margin-left: 400px;
+}
+.service1{
+    font-family: monospace;
+    font-size: 60px;
+    margin-left: 798px;
+    margin-top: -70px;
+    color: yellow;
+}
+.ota_card{
+    display: flex;
+    gap: 40px;
+}
+.card{
+    cursor: pointer;
+    border-radius: 24px;
+    margin-left: 18px;
+    width: 400px;
+    height: 500px;
+    background: white;
+    transition: .6s;
+}
+.card:hover{
+    background: #c2e958;
+}
+.icon{
+    width: 80px;
+    height: 90px;
+    margin-top: 30px;
+    margin-left: 150px;
+}
+.icony{
+    font-family: monospace;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+.iconyh{
+    font-family: monospace;
+    font-size: 20px;
+    margin-top: 80px;
+}
+.fotos{
+    width: 100%;
+    height: 200vh;
+    display: flex;
+}
+.fotos h2{
+    text-align: center;
+    margin-left: 500px;
+    margin-top: 30px;
+    font-size: 60px;
+    font-weight: 400;
+}
+.fotos h2 span{
+    color: gold;
+}
+.fotos2{
+    display: flex;
+    margin: auto;
+    gap: 70px;
+}
+.images{
+    margin: auto;
+    margin-top: -1050px;
+    width: 300px;
+    height: 300px;
+}
+.barber1{
+    width: 300px;
+    height: 300px;
+}
+.fotos3{
+    display: flex;
+    margin: auto;
+    gap: 70px;
+}
+.images1{
+    margin: auto;
+    margin-top: -700px;
+    width: 300px;
+    height: 300px;
+}
+.end{
+    margin-left: 550px;
+    margin-top: -400px;
+    margin-bottom: 200px;
+
+}
+.order{
+    cursor: pointer;
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    background: dodgerblue;
+    border-radius: 12px;
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: monospace;
+    border: none;
+    box-shadow: 0 0 10px 2px #99BAED;
+    margin-bottom: 1000px;
+    margin-left: 690px;
+    margin-top: -400px;
+}
+.order_tepa{
+    margin-top: -250px;
+    transition: .9s;
+}
+.order:hover{
+    width: 350px;
+    height: 70px;
+    background: dodgerblue;
+}
